@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
-import logo from "../assets/ccc-logo.png";
+import logo from "../assets/logo.png";
 import styles from "../styles/NavBar.module.css";
 import { NavLink } from "react-router-dom";
 import {
@@ -12,7 +12,7 @@ import {
   useSetCurrentUser,
 } from "../contexts/CurrentUserContext";
 import axios from "axios";
-import useClickOutsideToggle from "../hooks/useClickOutsideToggle";
+import useClickOutsideToggle from "../hooks/useClickOutsideToggle.js";
 import { removeTokenTimestamp } from "../utils/utils";
 
 const NavBar = () => {
