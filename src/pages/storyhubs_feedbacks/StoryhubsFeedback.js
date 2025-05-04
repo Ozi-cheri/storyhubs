@@ -117,7 +117,7 @@ const StoryhubsFeedback = (props) => {
           <Card.Title className="text-center">{story_creator}</Card.Title>
         )}
 
-        {category && <Card.Text>{genre}</Card.Text>}
+        {category && <Card.Text>{story_creator}</Card.Text>}
 
         {your_feedback && <Card.Text>{your_feedback}</Card.Text>}
 

@@ -1,6 +1,6 @@
 .StoryhubsFeedback {
-    background-color: #eadfde;
-    border: 1px solid #a45c74;
+    background-color: #E4EFE7;
+    border: 1px solid #2596be;
     border-radius: 2px;
     margin-bottom: 16px;
     text-align: center;
@@ -12,13 +12,13 @@
   }
   
   .Heart {
-    color: #a45c74;
+    color: #2596be;
   }
   
   .Heart:hover {
-    color: #5ca48c;
+    color: #ADF;
   }
   
   .HeartOutline:hover {
-    color: #a45c74;
+    color: #2596be;
   }

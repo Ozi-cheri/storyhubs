@@ -30,15 +30,15 @@ const NavBar = () => {
     }
   };
 
-  const addBookReviewIcon = (
+  const addStoryhubsFeedbackIcon = (
     <NavLink
       className={styles.NavLink}
       activeClassName={styles.Active}
-      to="/book_reviews/create"
+      to="/storyhubs_feedbacks/create"
     >
       <OverlayTrigger
               placement="bottom"
-              overlay={<Tooltip>New Review</Tooltip>}
+              overlay={<Tooltip>New Feedback</Tooltip>}
             >
               <i className="far fa-plus-square"></i>
             </OverlayTrigger>
@@ -108,14 +108,14 @@ const NavBar = () => {
             </OverlayTrigger>
       </NavLink>
       <NavLink
-        to="/register"
+        to="/signup"
         className={styles.NavLink}
         activeClassName={styles.Active}
       >
          
         <OverlayTrigger
               placement="bottom"
-              overlay={<Tooltip>Register</Tooltip>}
+              overlay={<Tooltip>SignUp</Tooltip>}
             >
               <i className="fas fa-user-plus"></i>
             </OverlayTrigger>
@@ -136,7 +136,7 @@ const NavBar = () => {
             <img src={logo} alt="logo" height="45" />
           </Navbar.Brand>
         </NavLink>
-        {currentUser && addBookReviewIcon}
+        {currentUser && addStoryhubsFeedbackIcon}
         <Navbar.Toggle
           ref={ref}
           onClick={() => setExpanded(!expanded)}

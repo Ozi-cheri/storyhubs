@@ -38,7 +38,7 @@ function StoryhubsFeedbacksPage({ message, filter = "" }) {
         {hasLoaded ? (
           <>
             {storyhubs_feedbacks.results.length ? (
-              storyhubs_feedbacks.results.map((book_review) => (
+              storyhubs_feedbacks.results.map((storyhubs_feedback) => (
                 <StoryhubsFeedback key={storyhubs_feedback.id} {...storyhubs_feedback} setStoryhubsFeedbacks={setStoryhubsFeedbacks} />
               ))
             ) : (

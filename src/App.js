@@ -47,13 +47,13 @@ function App() {
             path="/likes"
             render={() => (
               <StoryhubsFeedbacksPage
-                message="No results found. Like a review!"
+                message="No results found. Like a feedback!"
                 filter={`likes__owner__profile=${profile_id}&ordering=-likes__created_at&`}
               />
             )}
           />
           <Route exact path="/login" render={() => <SignInForm />} />
-          <Route exact path="/register" render={() => <SignUpForm />} />
+          <Route exact path="/signup" render={() => <SignUpForm />} />
           <Route exact path="/storyhubs_feedbacks/create" render={() => <StoryhubsFeedbackCreateForm />} />
           <Route exact path="/storyhubs_feedbacks/:id" render={() => <StoryhubsFeedbackPage />} />
           <Route exact path="/storyhubs_feedbacks/:id/edit" render={() => <StoryhubsFeedbackEditForm />} />

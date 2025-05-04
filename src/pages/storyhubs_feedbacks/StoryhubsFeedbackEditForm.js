@@ -46,7 +46,7 @@ function StoryhubsFeedbackEditForm() {
   }, [history, id]);
 
   const handleChange = (event) => {
-    setBookReviewData({
+    setStoryhubsFeedbackData({
       ...storyhubsFeedbackData,
       [event.target.name]: event.target.value,
     });

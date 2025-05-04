@@ -104,7 +104,7 @@ function SignInForm() {
           </Form>
         </Container>
         <Container className={`mt-3 ${appStyles.Content}`}>
-          <Link className={styles.Link} to="/register">
+          <Link className={styles.Link} to="/signup">
             Don't have an account? <span>Register now!</span>
           </Link>
         </Container>
@@ -115,7 +115,7 @@ function SignInForm() {
       >
         <Image
           className={`${appStyles.FillerImage}`}
-          src={"https://res.cloudinary.com/diuh4hxhw/image/upload/v1732142032/filler_image7_abf3c9.jpg"}
+          src={"https://res.cloudinary.com/dmjs4rot0/image/upload/v1743941091/filler_image_usj2mf.jpg"}
         />
       </Col>
     </Row>

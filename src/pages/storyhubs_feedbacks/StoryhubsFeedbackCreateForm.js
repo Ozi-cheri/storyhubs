@@ -58,7 +58,7 @@ function StoryhubsFeedbackCreateForm() {
     formData.append("story_title", story_title);
     formData.append("story_creator", story_creator);
     formData.append("category", category);
-    formData.append("your_review", your_review);
+    formData.append("your_feedback", your_feedback);
     formData.append("image", imageInput.current.files[0]);
 
     try {
@@ -74,7 +74,7 @@ function StoryhubsFeedbackCreateForm() {
   const textFields = (
     <div className="text-center">
       <Form.Group>
-        <Form.Label>Book Title</Form.Label>
+        <Form.Label>Story Title</Form.Label>
         <Form.Control
           type="text"
           name="story_title"
@@ -89,7 +89,7 @@ function StoryhubsFeedbackCreateForm() {
       ))} 
 
 <Form.Group>
-        <Form.Label>Author</Form.Label>
+        <Form.Label>Story_creator</Form.Label>
         <Form.Control
           type="text"
           name="story_creator"
@@ -104,7 +104,7 @@ function StoryhubsFeedbackCreateForm() {
       ))}
 
 <Form.Group>
-        <Form.Label>category</Form.Label>
+        <Form.Label>Category</Form.Label>
         <Form.Control
           type="text"
           name="category"

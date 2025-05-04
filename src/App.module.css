@@ -9,7 +9,7 @@
 }
 
 .Content {
-  background-color: #ffffff;
+  background-color: #E4EFE7;
   padding: 10px;
   border-radius: 2px;
   border: 1px solid #dadadf;
@@ -41,7 +41,7 @@ a:hover {
 }
 
 a:hover i {
-  color: #2142b2;
+  color: #2596be;
   transition: color ease-in-out 0.3s;
 }
 
@@ -72,10 +72,10 @@ figure {
   width: 5px;
 }
 *::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #ADF;
 }
 *::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #666;
 }
 *::-webkit-scrollbar-thumb:hover {
   background: #555;
