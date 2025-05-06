@@ -106,7 +106,7 @@ function ProfilePage() {
             ))}
         </Col>
         <Col className="py-2 p-0 p-lg-2" lg={12}>
-  {profile?.name && profile?.city_of_origin && profile?.languages_spoken && profile?.story_title && profile?.proudest_moment && profile?.about_me ? (
+  {profile?.city_of_origin && profile?.languages_spoken && profile?.story_title && profile?.proudest_moment && profile?.about_me ? (
     <p>
       Hi All! I am {profile.name} and am from {profile.city_of_origin}.<br />
       I speak {profile.languages_spoken}. My story is titled "{profile.story_title}".<br />
