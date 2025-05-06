@@ -7,7 +7,9 @@ This is the **React.application** frontend that communicates with the **Django R
 
 ##  Live Site
 
-[here](https://storyhubs-7a570d7437c8.herokuapp.com/).
+The live site can be found [here](https://storyhubs-7a570d7437c8.herokuapp.com/).
+
+
 
 
 
