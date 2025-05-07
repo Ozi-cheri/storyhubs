@@ -6,3 +6,14 @@ axios.defaults.withCredentials = true;
 
 export const axiosReq = axios.create();
 export const axiosRes = axios.create();
+
+axiosReq.interceptors.request.use(
+    (config) => {
+      const token = localStorage.getItem("accessToken"); // or sessionStorage
+      if (token) {
+        config.headers.Authorization = `Bearer ${token}`;
+      }
+      return config;
+    },
+    (error) => Promise.reject(error)
+  );
