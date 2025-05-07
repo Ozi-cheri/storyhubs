@@ -97,3 +97,27 @@ These buttons are only visible to the content owner of the page
 
 * Award badges based on activity or story themes
 
+
+## Languages
+- HTML
+- CSS
+- Bootstrap
+- React
+
+## Libraries used
+- React is a JavaScript library used to build the user interface. 
+- React-Bootstrap was used to provide pre-built, responsive components.
+- Axios handled API requests between the React frontend and the Django REST API, allowing the Front-end to communicate with the Back-end.
+- React Router Dom was used for managing routing and navigation between different pages within the React frontend.
+
+## Technologies used
+- [GitHub](https://github.com/) was used to host the repository and as version control.
+
+- [Heroku](https://www.heroku.com/) was used to deploy the frontend of the project.
+
+- [Leonardo Ai](https://app.leonardo.ai/) created all of the images - the profile photos and posts.
+- [ChatGPT](https://chatgpt.com/) created the book titles, author names and book reviews.
+- [Wirefames](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/) created the table in my TESTING.md file.
+- 
+- [FontAwesome](https://fontawesome.com/) was used to choose icons for the NavBar.
+
