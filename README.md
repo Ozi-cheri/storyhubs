@@ -58,7 +58,7 @@ Users can login here if they already have an account.
 New users are expected to sign up before they could access the site.
 
 
-### Profile Form
+### Profile Page
 
 Once signup or logged in, users have access to a profile form where they can upload or update Profile pictures
  or personal descriptions.
@@ -78,11 +78,11 @@ Each post or feedback includes a three-dots icon (`⋯`) giving access to:
 These buttons are only visible to the content owner of the page 
 
 
-### Follow/Unfollow System
+### Follow/Unfollow Page
 
 - Users can **follow** or **unfollow** others by visiting their profiles.
 
-- Follower/following counts are dynamically displayed.
+- Follower/following counts are dynamically displayed and you can unfollow a user by clicking the button again and vice versa.
   
 
 
@@ -115,9 +115,77 @@ These buttons are only visible to the content owner of the page
 
 - [Heroku](https://www.heroku.com/) was used to deploy the frontend of the project.
 
-- [Leonardo Ai](https://app.leonardo.ai/) created all of the images - the profile photos and posts.
+- [Leonardo Ai](https://app.leonardo.ai/) created all the profile photos.
 - [ChatGPT](https://chatgpt.com/) created the book titles, author names and book reviews.
 - [Wirefames](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/) created the table in my TESTING.md file.
 - 
 - [FontAwesome](https://fontawesome.com/) was used to choose icons for the NavBar.
+
+
+
+
+## User stories
+
+
+* As a first time user, i want to create an account in order to access the site and start posting my own stories.
+
+* As a user, I want to view a list of stories on the homepage so I can browse what others have shared.
+
+
+* As a user, I have my profile page where I can display information about myself.
+
+
+* As a logged in user, i can easily visit the site using log-in button displayed at the navigation bar.
+
+
+* As a user, I can create my own stories feedback about my life experience to share my views with the platform.
+
+
+* As a user logged in user, I can view others feedback.
+- As a user, i can edit my profile or my stories and even delete as well so I can manage what I share.
+
+* As a user, i can follow and like my favourite profile so i can motivate them especially if they have interesting stories.
+* As a user, I want to be able to post a new story so I can share my experience.
+
+* As a user, I want the site to be fully responsive so I can use it on any device.
+
+* As a user, I want to view error messages clearly when something goes wrong.
+
+
+
+### Wireframes 
+
+
+
+
+### User experience
+
+
+
+
+
+
+### Colour scheme
+
+
+
+### Typography
+
+
+### Testing
+
+Please see separate [TESTING.md](TESTING.md) file for all testing.
+
+
+### ### Deployment
+1. Log in Or Sign up to your Heroku account.
+2. Click New to Create new app.
+3. Choose an app name and choose the closest region and click on create app.
+4. Go to the Heroku app Dashboard.
+5. Click the 'Deploy' tab.
+6. In the Deployment method section, click Connect to GitHub.
+7. Search for the repo you want to connect and click Connect.
+8. Select  manual deploy section and wait for few minutes for your app to go through the process of deployment.
+9. Your app is deployed. You can find it in *** Open app ***.
+
 
