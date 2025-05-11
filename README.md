@@ -1,8 +1,11 @@
 #  Storyhubs Frontend
 
+![screenshots2](src/assets/screenshots2.png)
+
+
 Welcome to the frontend of **Storyhubs** – a user-generated storytelling platform that allows individuals to share life experiences, travel stories, and inspirational moments from around the world.
 
-This is the **React.application** frontend that communicates with the **Django Rest Framework** backend. The backend which is called storyhubs-api can be found [here](https://storyhubs-api-4e038dae39bb.herokuapp.com/). It supports image uploads via **Cloudinary**, displays user feedback stories, and includes a responsive layout.
+This is the **React.application** frontend that communicates with the **Django Rest Framework** backend. The backend repository which is called storyhubs-api can be found [here](https://github.com/Ozi-cheri/storyhubs-api). It supports image uploads via **Cloudinary**, displays user feedback stories, and includes a responsive layout.
 
 
 ##  Frontend Live Site
@@ -26,6 +29,8 @@ Storyhubs allows users to:
 
 ## Agile methodology
 
+![screenshots2](src/assets/screenshots13.png)
+
 
 * This project follows Agile development principles, focusing on iterative development and regular feedback.  The project was managed using GitHub Projects, where user stories were created and tracked as issues.
 
@@ -37,7 +42,7 @@ GitHub Issues for writing user stories with clear acceptance criteria
 
 Commits linked to issues for traceability and progress updates
 
-- The project board can be found [here] (https://github.com/users/ozi-cheri/projects/9)
+*** The project board can be found *** [here] (https://github.com/users/ozi-cheri/projects/9)
 
 
 
@@ -48,26 +53,38 @@ Commits linked to issues for traceability and progress updates
 
 This contains links to Home,Signup, Log in, 
 
+![screenshots2](src/assets/screenshots11.png)
 
 - The homepage displays users uploads
 
 - Log In
 Users can login here if they already have an account.
 
+![screenshots2](src/assets/screenshots5.png)
+
 - Signup
 New users are expected to sign up before they could access the site.
+
+![screenshots2](src/assets/screenshots10.png)
 
 
 ### Profile Page
 
 Once signup or logged in, users have access to a profile form where they can upload or update Profile pictures
- or personal descriptions.
+ or personal descriptions as well as other features in the app.
+
+ ![screenshots2](src/assets/screenshots9.png)
 
 
 ### New Feedback
 
 There are buttons for New Feedback where users can write feedbacks about their stories and upload their image.
 
+![screenshots2](src/assets/screenshots8.png)
+
+Users can also create more than one story with image.
+
+![screenshots2](src/assets/screenshots13.png)
 
 ### Edit & Delete Options (3-Dots Menu)
 Each post or feedback includes a three-dots icon (`⋯`) giving access to:
@@ -81,6 +98,8 @@ These buttons are only visible to the content owner of the page
 ### Follow/Unfollow Page
 
 - Users can **follow** or **unfollow** others by visiting their profiles.
+
+![screenshots2](src/assets/screenshots4.png)
 
 - Follower/following counts are dynamically displayed and you can unfollow a user by clicking the button again and vice versa.
   
@@ -122,8 +141,9 @@ These buttons are only visible to the content owner of the page
 - [Heroku](https://www.heroku.com/) was used to deploy the frontend of the project.
 
 - [Leonardo Ai](https://app.leonardo.ai/) was used to created the profile photos.
-- [ChatGPT](https://chatgpt.com/) created the book titles, author names and book reviews.
-- 
+
+- [Visit Pexels – Free Stock Photos & Videos](https://www.pexels.com)
+
 - [FontAwesome](https://fontawesome.com/) was used to choose icons for the NavBar.
 
 
@@ -199,7 +219,7 @@ The project uses the DM Sans font family for clean and modern text styling. This
 Please click [TESTING.md](testing.md) file for all testing.
 
 
-### ### Deployment
+### Deployment
 1. Log in Or Sign up to your Heroku account.
 2. Click New to Create new app.
 3. Choose an app name and choose the closest region and click on create app.
@@ -209,6 +229,19 @@ Please click [TESTING.md](testing.md) file for all testing.
 7. Search for the repo you want to connect and click Connect.
 8. Select  manual deploy section and wait for few minutes for your app to go through the process of deployment.
 9. Your app is deployed. You can find it in *** Open app ***.
+
+
+### Local Clone
+
+* Sign up or log in on Github
+* Click "code" button and copy the provided link.
+* Enter git clone in the terminal,paste the link and run it.
+* git clone https://github.com/ozi-cheri/storyhubs.git
+
+### Forking The Github Repository
+
+* Locate the Github log inrepository
+* Click the "fork" button at the the right top corner of the page.
 
 
 ## Credits
