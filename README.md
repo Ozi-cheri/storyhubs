@@ -2,10 +2,10 @@
 
 Welcome to the frontend of **Storyhubs** – a user-generated storytelling platform that allows individuals to share life experiences, travel stories, and inspirational moments from around the world.
 
-This is the **React.application** frontend that communicates with the **Django Rest Framework** backend. It supports image uploads via **Cloudinary**, displays user feedback stories, and includes a responsive layout.
+This is the **React.application** frontend that communicates with the **Django Rest Framework** backend. The backend which is called storyhubs-api can be found [here](https://storyhubs-api-4e038dae39bb.herokuapp.com/). It supports image uploads via **Cloudinary**, displays user feedback stories, and includes a responsive layout.
 
 
-##  Live Site
+##  Frontend Live Site
 
 The live site can be found [here](https://storyhubs-7a570d7437c8.herokuapp.com/).
 
@@ -89,22 +89,28 @@ These buttons are only visible to the content owner of the page
 
 ## Feature Improvements 
 
-* Users will be able to comment on feedbacks and engage in discussion
+* Users will be able to comment on feedbacks and engage in discussion.
 
-* Allow filtering feedbacks by location, category, or language
+* Allow filtering feedbacks by location, category, or language.
 
-* Notify users when someone follows or interacts with their stories
+* Notify users when someone follows or interacts with their stories.
 
-* Award badges based on activity or story themes
+* Award badges based on activity or story themes.
+
+* Add search icon to search story.
+
+* Add comment form for users.
 
 
 ## Languages
+
 - HTML
 - CSS
 - Bootstrap
 - React
 
 ## Libraries used
+
 - React is a JavaScript library used to build the user interface. 
 - React-Bootstrap was used to provide pre-built, responsive components.
 - Axios handled API requests between the React frontend and the Django REST API, allowing the Front-end to communicate with the Back-end.
@@ -115,9 +121,8 @@ These buttons are only visible to the content owner of the page
 
 - [Heroku](https://www.heroku.com/) was used to deploy the frontend of the project.
 
-- [Leonardo Ai](https://app.leonardo.ai/) created all the profile photos.
+- [Leonardo Ai](https://app.leonardo.ai/) was used to created the profile photos.
 - [ChatGPT](https://chatgpt.com/) created the book titles, author names and book reviews.
-- [Wirefames](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/) created the table in my TESTING.md file.
 - 
 - [FontAwesome](https://fontawesome.com/) was used to choose icons for the NavBar.
 
@@ -158,23 +163,40 @@ These buttons are only visible to the content owner of the page
 
 
 
-### User experience
+### User experience(UX)
 
+* The project follows a clean and modern layout for easy navigation.
 
+* Pages are responsive and work well on mobile, tablet, and desktop devices.
 
+* Buttons, links, and forms have intuitive placements and clear labels.
+
+* Color choices ensure readability and a calm visual feel (#ADF, #2596be, #E4EFE7, #99bc85).
+
+* Consistent typography is applied using the DM Sans font for a clean and professional look.
+
+* Feedback messages and loading states guide users through actions like logging in, posting stories, or updating profiles.
+
+* Interactive elements such as "likes", "follows", and "3-dots" edit/delete menus make the experience engaging.
+
+* Accessibility best practices were followed to ensure usability for all users.
 
 
 
 ### Colour scheme
 
+Each color was chosen to promote a clean and calm visual hierarchy, improving accessibility and user experience.
+
 
 
 ### Typography
 
+The project uses the DM Sans font family for clean and modern text styling. This font is loaded from Google Fonts and supports weights of 500 (Medium) and 700 (Bold) for consistent heading and body text styling.
+
 
 ### Testing
 
-Please see separate [TESTING.md](TESTING.md) file for all testing.
+Please click [TESTING.md](testing.md) file for all testing.
 
 
 ### ### Deployment
@@ -187,5 +209,14 @@ Please see separate [TESTING.md](TESTING.md) file for all testing.
 7. Search for the repo you want to connect and click Connect.
 8. Select  manual deploy section and wait for few minutes for your app to go through the process of deployment.
 9. Your app is deployed. You can find it in *** Open app ***.
+
+
+## Credits
+
+Code Institute walkthrough video was used to create this project.
+
+
+
+## Acknowledgements 
 
 
