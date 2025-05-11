@@ -11,8 +11,6 @@
 - [Known Issues](#known-issues)
 
 
-
-
 ### Manual Testing
 
 
@@ -24,7 +22,7 @@
 | Create Story     | Fill form and submit                | Story visible                 | ✅     |
 | Edit Story       | Edit and save changes               | Story updated                 | ✅     |
 | Delete Story     | Delete post via menu                | Story removed                 | ✅     |
-| Search           | Enter keyword and search            | Matches shown                 | ✅     |
+|                  |                                     |                               |
 | Follow User      | Click follow on profile             | User followed                 | ✅     |
 | Like Story       | Click heart icon                    | Like count increases          | ✅     |
 | Upload Picture   | Upload and save new photo           | Image displays                | ✅     |
@@ -59,8 +57,21 @@
 | Mobile Chrome    | View and scroll             | Responsive & smooth         | ✅     |
 
 
+
+### Lighthouse Testing Result
+
+![screenshots2](src/assets/screenshots3.png)
+
 ### Validation Testing
 
+The css files were validated using [W3 Jigsaw validator](https://validator.w3.org/)
+
+![screenshots2](src/assets/screenshots15.png)
+
+The index.html was validated using [W3C validator](https://validator.w3.org/)
+It came back clear, but had some trailling slash
+
+![screenshots2](src/assets/screenshots16.png)
 
 
 
@@ -72,8 +83,22 @@
 
 
 
-
-### Known Issues
+### Known Issues and Solutions
 
 * Images not displaying after deployment                                   
 * Profile picture not showing on refresh
+* Failed to load resource: the server responded with a status of 401 (Unauthorized)Understand this error
+storyhubs-api-4e038dae39bb.herokuapp.com/dj-rest-auth/token/refresh/:1.
+                      
+* Failed to load resource: the server responded with a status of 401 (Unauthorized)Understand this error
+storyhubs-api-4e038dae39bb.herokuapp.com/dj-rest-auth/user/:1 .
+            
+            
+* Failed to load resource: the server responded with a status of 401 (Unauthorized)Understand this error.
+
+### Solution
+
+My backend, storyhubs-api setting.py was modified to resolve this issue.
+
+
+[Back to Top](#)

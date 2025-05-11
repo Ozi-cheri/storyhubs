@@ -1,9 +1,7 @@
 #  Storyhubs Frontend
+Welcome to the frontend of **Storyhubs** – a user-generated storytelling platform that allows individuals to share life experiences, travel stories, and inspirational moments from around the world.
 
 ![screenshots2](src/assets/screenshots2.png)
-
-
-Welcome to the frontend of **Storyhubs** – a user-generated storytelling platform that allows individuals to share life experiences, travel stories, and inspirational moments from around the world.
 
 This is the **React.application** frontend that communicates with the **Django Rest Framework** backend. The backend repository which is called storyhubs-api can be found [here](https://github.com/Ozi-cheri/storyhubs-api). It supports image uploads via **Cloudinary**, displays user feedback stories, and includes a responsive layout.
 
@@ -42,9 +40,9 @@ GitHub Issues for writing user stories with clear acceptance criteria
 
 Commits linked to issues for traceability and progress updates
 
-*** The project board can be found *** [here] (https://github.com/users/ozi-cheri/projects/9)
+The project board can be found [here](https://github.com/users/ozi-cheri/projects/9)
 
-
+[Back to Top](#)
 
 ## Existing Features
 
@@ -56,6 +54,8 @@ This contains links to Home,Signup, Log in,
 ![screenshots2](src/assets/screenshots11.png)
 
 - The homepage displays users uploads
+
+![screenshots2](src/assets/screenshots14.png)
 
 - Log In
 Users can login here if they already have an account.
@@ -82,9 +82,8 @@ There are buttons for New Feedback where users can write feedbacks about their s
 
 ![screenshots2](src/assets/screenshots8.png)
 
-Users can also create more than one story with image.
 
-![screenshots2](src/assets/screenshots13.png)
+[Back to Top](#)
 
 ### Edit & Delete Options (3-Dots Menu)
 Each post or feedback includes a three-dots icon (`⋯`) giving access to:
@@ -142,14 +141,14 @@ These buttons are only visible to the content owner of the page
 
 - [Leonardo Ai](https://app.leonardo.ai/) was used to created the profile photos.
 
-- [Visit Pexels – Free Stock Photos & Videos](https://www.pexels.com)
+- [Visit Pexels – Free Stock Photos & Videos](https://www.pexels.com) was used to create images.
 
 - [FontAwesome](https://fontawesome.com/) was used to choose icons for the NavBar.
 
 
 
 
-## User stories
+## User Stories
 
 
 * As a first time user, i want to create an account in order to access the site and start posting my own stories.
@@ -177,6 +176,7 @@ These buttons are only visible to the content owner of the page
 * As a user, I want to view error messages clearly when something goes wrong.
 
 
+[Back to Top](#)
 
 ### Wireframes 
 
@@ -251,5 +251,10 @@ Code Institute walkthrough video was used to create this project.
 
 
 ## Acknowledgements 
+
+* Code institute for the platform.
+* My Mentor Gareth McGirr for his supports and feedbacks.
+
+[Back to Top](#)
 
 
