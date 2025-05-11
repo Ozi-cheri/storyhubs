@@ -207,6 +207,8 @@ These buttons are only visible to the content owner of the page
 
 Each color was chosen to promote a clean and calm visual hierarchy, improving accessibility and user experience.
 
+![screenshots2](src/assets/screenshots18.png)
+
 
 
 ### Typography
