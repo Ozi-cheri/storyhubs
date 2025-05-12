@@ -249,6 +249,8 @@ Please click [TESTING.md](TESTING.md)file for all testing.
 ## Credits
 
 Code Institute walkthrough video was used to create this project.
+[ChatGPT](https://chat.openai.com/) was used to generate stories and code assistance.
+
 
 
 
