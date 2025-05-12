@@ -218,7 +218,7 @@ The project uses the DM Sans font family for clean and modern text styling. This
 
 ### Testing
 
-Please click [TESTING.md](testing.md) file for all testing.
+Please click [TESTING.md](TESTING.md)file for all testing.
 
 
 ### Deployment
